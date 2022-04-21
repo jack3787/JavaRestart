@@ -12,9 +12,9 @@ public class TakeTaxiTest {
         passenger1.takeTaxi(taxi2); // passenger1이 taxi2를 takeTaxi 했다.
         passenger2.takeTaxi(taxi2); // passenger2이 taxi2를 takeTaxi 했다.
 
-        passenger1.showInfo(); // passenger1의 돈 현황
-        passenger2.showInfo(); // passenger2의 돈 현황
-        taxi1.showInfo(); // taxi1의 돈 현황
-        taxi2.showInfo(); // taxi2의 돈 현황
+        passenger1.showPassengerInfo(); // passenger1의 돈 현황
+        passenger2.showPassengerInfo(); // passenger2의 돈 현황
+        taxi1.showTaxiInfo(); // taxi1의 돈 현황
+        taxi2.showTaxiInfo(); // taxi2의 돈 현황
     }
 }

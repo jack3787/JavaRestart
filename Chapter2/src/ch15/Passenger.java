@@ -15,7 +15,7 @@ public class Passenger {
         money -= 3800;
     }
 
-    public void showInfo(){
+    public void showPassengerInfo(){
         System.out.println(passengerName + "님의 남은 돈은 " + money + "원 입니다.");
     }
 

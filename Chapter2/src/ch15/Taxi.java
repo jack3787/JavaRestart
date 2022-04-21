@@ -13,7 +13,7 @@ public class Taxi {
         this.income += income;
     }
 
-    public void showInfo(){
+    public void showTaxiInfo(){
         System.out.println(taxiCompanyName + " 회사의 수입은 " + income + "원 입니다.");
     }
 }
